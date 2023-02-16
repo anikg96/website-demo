@@ -27,12 +27,6 @@ const OurTeam = () => {
             title: 'Sidrah Maryam, M. Sc.',
             subtitle: 'Director'
         },
-        {
-            id:4,
-            img: rito,
-            title: 'Ritabrata Sanyal, Rito',
-            subtitle: 'Director'
-        },
     ]
   return (
     <PageSection 
