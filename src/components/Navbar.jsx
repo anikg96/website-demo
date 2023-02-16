@@ -59,7 +59,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
             <ul>
                 {
                     links.map(({id, link}) => (
-                        <li key={id}>
+                        <li key={id} className="p-4">
                             {link}
                         </li>
                     ))
