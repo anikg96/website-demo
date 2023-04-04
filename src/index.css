@@ -7,7 +7,9 @@
 @layer base {
     html {
         font-family: 'Roboto', sans-serif;
-        background: black;
-        @apply tracking-wider text-gray-200
+        /* background: black;
+        @apply tracking-wider text-gray-200 */
+        background: white;
+        @apply tracking-wider text-black
     }
 }

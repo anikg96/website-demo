@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from "../assets/logo.png";
+
 import { Link } from "react-scroll";
 
 const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
@@ -30,12 +31,13 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
 
     return (
         <>
-        <div className="absolute w-full h-24 bg-black text-gray-400 z-20 opacity-70">
+        {/* <div className="absolute w-full h-24 bg-black text-gray-400 z-20 opacity-70"> */}
+        <div className="absolute w-full h-24 bg-white text-black z-20 opacity-100">
             <div className="flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full">
                 {/* Replace text to contain logo later on */}
-                <div>
+                {/* <div>
                     <img className="rounded-lg object-contain h-16 w-16" src={logo} />
-                </div>
+                </div> */}
                 {/* <div> */}
                     {/* Removed tracking widest from classes, because this caused letters to be spaced apart */}
                     {/* <h1 className="text-thGold text-3xl">Kramann Lab</h1> 
@@ -44,7 +46,8 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                     <ul className="flex">
                         {
                             links.map(({id, link, component}) => (
-                                <li key={id} className="p-4 duration-200 hover:text-white hover:underline underline-offset-8 cursor-pointer">
+                                // <li key={id} className="p-4 duration-200 hover:text-white hover:underline underline-offset-8 cursor-pointer">
+                                <li key={id} className="p-4 duration-200 hover:text-black hover:underline underline-offset-8 cursor-pointer">
                                     <Link to={component} smooth duration={500}>
                                         {link}
                                     </Link>
