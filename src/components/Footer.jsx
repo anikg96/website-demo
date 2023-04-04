@@ -19,7 +19,7 @@ const Footer = () => {
           ))}
         </div> */}
         <p className="my-12 text-center text-sm text-thBlue">
-          © Copyright 2023 Kramann Lab
+          © Copyright 2023 Sequantrix
         </p>
       </div>
     </div>

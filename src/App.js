@@ -7,6 +7,7 @@ import Founders from "./components/Founders";
 import { News } from "./components/News";
 import { ContactUs } from "./components/ContactUs";
 import Footer from "./components/Footer";
+import Board from "./components/Board";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <HeroSection />
       <hr />
       <Founders />
+      <Board />
       <hr />
       <OurTeam />
       <hr />

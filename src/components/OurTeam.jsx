@@ -53,7 +53,7 @@ const OurTeam = () => {
   return (
     <PageSection 
     name="team"
-    title="Our Team"
+    title="Team"
     subtitle={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin molestie tristique feugiat. Curabitur tincidunt ex sed velit tempus, rhoncus porta lacus bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sit amet turpis id augue aliquet iaculis at sit amet dui. Aenean sollicitudin diam lobortis, pharetra urna at, ultricies turpis. Phasellus vitae aliquam lorem, et congue quam. Vestibulum bibendum justo odio, id placerat dolor euismod at. Etiam ultricies ipsum vitae tellus tincidunt, eget posuere enim ultricies. Nam ultricies nisi ultricies urna luctus sodales. Pellentesque ornare iaculis varius. Nulla sit amet ante turpis. Vestibulum vel lorem at arcu eleifend vestibulum a vel odio. Proin quis luctus ante. Fusce a luctus mi.`}
     >
         
@@ -71,7 +71,83 @@ const OurTeam = () => {
                     ))
                 }
             </div> */}
-            <div class="grid grid-cols-6">
+            <h1 className="text-3xl">Computational</h1>
+            <br></br>
+            <div class="grid grid-cols-5 gap-4">
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={michael} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Michael Rheinnecker, CEO</h5>
+                    </div>
+                </div>
+                <div></div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={sikander} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Sikander Hayat</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={hyojin} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Hyojin Kim</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={felix} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Felix Schreibing</h5>
+                    </div>
+                </div>
+            </div>
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <h1 className="text-3xl">Target Validation</h1>
+            <br></br>
+            <div class="grid grid-cols-6 gap-4">
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={jitske} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Jitske Jansen</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={maurice} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Maurice Halder</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={niclas} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Niclas Flosdorf</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={susanne} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Susanne Schmitz</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={ursula} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Ursula Förster</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={konrad} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
+                        <h5>Dr. Konrad Hoeft</h5>
+                    </div>
+                </div>
+            </div>
+
+            {/* <div class="grid grid-cols-6">
                 <div 
                     class="relative hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out"
                     onClick={() => setShowModal(true)}>
@@ -117,7 +193,7 @@ const OurTeam = () => {
                     <img src={ursula} alt=""/>
                 </div>
                 
-            </div>
+            </div> */}
             <Modal visible={showModal} onClose={handleOnClose} />
     </PageSection>
     
