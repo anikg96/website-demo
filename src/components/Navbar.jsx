@@ -9,22 +9,32 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
     const links = [
         {
             id: 1,
-            link: 'Research Areas',
-            component: 'research'
+            link: 'Founders',
+            component: 'founders'
         },
         {
             id: 2,
+            link: 'Board',
+            component: 'board'
+        },
+        {
+            id: 3,
             link: 'Team',
             component: 'team'
         },
         {
-            id: 3,
-            link: 'Recent Work',
+            id: 4,
+            link: 'Our Research',
+            component: 'research'
+        },
+        {
+            id: 5,
+            link: 'Recent Work & News',
             component: 'news'
         },
         {
-            id: 4,
-            link: 'Support Our Research',
+            id: 6,
+            link: 'Contact Us',
             component: 'contact'
         },
     ]

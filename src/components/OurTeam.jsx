@@ -147,7 +147,7 @@ const OurTeam = () => {
                 </div>
             </div>
 
-            {/* <div class="grid grid-cols-6">
+            <div class="grid grid-cols-6">
                 <div 
                     class="relative hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out"
                     onClick={() => setShowModal(true)}>
@@ -193,7 +193,7 @@ const OurTeam = () => {
                     <img src={ursula} alt=""/>
                 </div>
                 
-            </div> */}
+            </div>
             <Modal visible={showModal} onClose={handleOnClose} />
     </PageSection>
     
