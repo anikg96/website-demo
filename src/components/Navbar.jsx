@@ -26,16 +26,21 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
         },
         {
             id: 4,
+            link: 'Approach',
+            component: 'approach'
+        },
+        {
+            id: 5,
             link: 'Research',
             component: 'research'
         },
         {
-            id: 5,
+            id: 6,
             link: 'News',
             component: 'news'
         },
         {
-            id: 6,
+            id: 7,
             link: 'Contact',
             component: 'contact'
         },

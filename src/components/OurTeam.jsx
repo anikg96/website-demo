@@ -48,78 +48,92 @@ const OurTeam = () => {
                     ))
                 }
             </div> */}
-            <h1 className="text-3xl">&nbsp;&nbsp;Management&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Computational</h1>
             <br></br>
-            <div class="grid grid-cols-5 gap-4">
+            <div class="grid grid-cols-6 gap-0">
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={michael} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Michael Rheinnecker, Ph.D.</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
+                        <h5>Michael</h5>
+                        <h5>CEO</h5>
                     </div>
                 </div>
-                <div></div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={sikander} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Sikander Hayat, Ph.D.</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
+                        <h5>Sikander, Translational</h5>
+                        <h5>Data Science</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={jitske} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
+                        <h5>Jitske, Group Leader</h5>
+                        <h5>Target Validation</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={hyojin} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Hyojin Kim, Ph.D.</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
+                        <h5>Hyojin, Computational</h5>
+                        <h5>Biologist</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={felix} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Felix Schreibing, M.D.</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
+                        <h5>Felix, Medical</h5>
+                        <h5>Bioinformatician</h5>
+                    </div>
+                </div>
+                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
+                    <img src={felix} alt=""/>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
+                        <h5 className="text-md">Suchandra, Knowledge</h5>
+                        <h5>Representation</h5>
                     </div>
                 </div>
             </div>
 
-            <br></br>
+            {/* <br></br>
             <br></br>
             <br></br>
             <br></br>
 
-            <h1 className="text-3xl">Target Validation</h1>
-            <br></br>
-            <div class="grid grid-cols-6 gap-4">
-                <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
-                    <img src={jitske} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Jitske Jansen, Ph.D.</h5>
-                    </div>
-                </div>
+            <br></br> */}
+            <div class="grid grid-cols-6">
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={maurice} alt=""/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Maurice Halder, Ph.D.</h5>
+                        <h5>Maurice, Scientist</h5>
+                        <h5>Target Validation</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={niclas} alt=""/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Niclas Flosdorf, Ph.D.</h5>
+                        <h5>Niclas, Scientist</h5>
+                        <h5>Target Validation</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={susanne} alt=""/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Susanne Schmitz</h5>
+                        <h5>Susanne</h5>
+                        <h5>MTA</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={ursula} alt=""/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Ursula Förster</h5>
+                        <h5>Ursula</h5>
+                        <h5>MTA</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={konrad} alt=""/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
-                        <h5>Konrad Hoeft, M.D.</h5>
+                        <h5>Konrad, Advisor</h5>
+                        <h5>Target Science</h5>
                     </div>
                 </div>
             </div>

@@ -8,6 +8,7 @@ import { News } from "./components/News";
 import { ContactUs } from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Board from "./components/Board";
+import Approach from "./components/Approach";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,8 @@ function App() {
       <Board />
       <hr />
       <OurTeam />
+      <hr />
+      <Approach />
       <hr />
       <ResearchAreas />
       <hr />
