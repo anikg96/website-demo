@@ -11,10 +11,10 @@ export const ContactUs = () => {
     >
         <div className="flex flex-col lg:flex-row gap-8 mt-4">
             {/* left */}
-            {/* <div className='w-full lg:w-1/2 h-full p-4 flex items-center flex-col justify-center'>
-                <h1 className='text-2xl'>Join Our Team</h1>
-                <p>Use the contact form or write us an email at 23dwej23@sdfq3.com</p>
-            </div> */}
+            <div className='w-full lg:w-1/2 h-full flex items-center flex-col justify-center'>
+                {/* <h1 className='text-2xl'>Join Our Team</h1> */}
+                <p>Please write us an email at info@sequantrix.bio</p>
+            </div>
 
             {/* right */}
             {/* <div className='w-full lg:w-1/2 h-full rounded-xl p-4'>

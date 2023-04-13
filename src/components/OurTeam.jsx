@@ -1,23 +1,19 @@
 import React, {Fragment, useRef} from 'react'
 import PageSection from './PageSection'
 
-import kramann from '../assets/team/Kramann.jpg';
-import hayat from '../assets/team/Hayat.jpg';
-import sidrah from '../assets/team/Sidrah.jpg';
-import rito from '../assets/team/Rito.JPG';
 
-import michael from '../assets/team/michael.jpg';
-import rafael from '../assets/team/rafael.jpg';
-import rebekka from '../assets/team/rebekka.jpg';
-import sikander from '../assets/team/sikander.jpg';
-import jitske from '../assets/team/jitske.jpg';
-import konrad from '../assets/team/konrad.jpg';
-import felix from '../assets/team/felix.jpg';
-import niclas from '../assets/team/niclas.jpg';
-import hyojin from '../assets/team/hyojin.jpg';
-import maurice from '../assets/team/maurice.jpg';
-import susanne from '../assets/team/susanne.jpg';
-import ursula from '../assets/team/ursula.jpg';
+
+import michael from '../assets/team/michael-min.jpg';
+
+import sikander from '../assets/team/sikander-min.jpg';
+import jitske from '../assets/team/jitske-min.jpg';
+import konrad from '../assets/team/konrad-min.jpg';
+import felix from '../assets/team/felix-min.jpg';
+import niclas from '../assets/team/niclas-min.jpg';
+import hyojin from '../assets/team/hyojin-min.jpg';
+import maurice from '../assets/team/maurice-min.jpg';
+import susanne from '../assets/team/susanne-min.jpg';
+import ursula from '../assets/team/ursula-min.jpg';
 
 import Modal from './Modal';
 import { useState } from 'react';
@@ -30,26 +26,7 @@ const OurTeam = () => {
         setShowModal(true);
     }
     const handleOnClose = () => setShowModal(false)
-    const team = [
-        {
-            id:1,
-            img: kramann,
-            title: 'Rafael Kramann, MD, PHD, FASN',
-            subtitle: 'Director'
-        },
-        {
-            id:2,
-            img: hayat,
-            title: 'Sikander Hayat, PhD',
-            subtitle: 'Director'
-        },
-        {
-            id:3,
-            img: sidrah,
-            title: 'Sidrah Maryam, M. Sc.',
-            subtitle: 'Director'
-        },
-    ]
+    
   return (
     <PageSection 
     name="team"
@@ -71,32 +48,32 @@ const OurTeam = () => {
                     ))
                 }
             </div> */}
-            <h1 className="text-3xl">Computational</h1>
+            <h1 className="text-3xl">&nbsp;&nbsp;Management&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Computational</h1>
             <br></br>
             <div class="grid grid-cols-5 gap-4">
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={michael} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Michael Rheinnecker, CEO</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Michael Rheinnecker, Ph.D.</h5>
                     </div>
                 </div>
                 <div></div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={sikander} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Sikander Hayat</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Sikander Hayat, Ph.D.</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={hyojin} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Hyojin Kim</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Hyojin Kim, Ph.D.</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={felix} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Felix Schreibing</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Felix Schreibing, M.D.</h5>
                     </div>
                 </div>
             </div>
@@ -111,43 +88,43 @@ const OurTeam = () => {
             <div class="grid grid-cols-6 gap-4">
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={jitske} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Jitske Jansen</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Jitske Jansen, Ph.D.</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={maurice} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Maurice Halder</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Maurice Halder, Ph.D.</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={niclas} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Niclas Flosdorf</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Niclas Flosdorf, Ph.D.</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={susanne} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Susanne Schmitz</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Susanne Schmitz</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={ursula} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Ursula Förster</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Ursula Förster</h5>
                     </div>
                 </div>
                 <div class="relative text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={konrad} alt=""/>
-                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-amber-400">
-                        <h5>Dr. Konrad Hoeft</h5>
+                    <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-50 text-white">
+                        <h5>Konrad Hoeft, M.D.</h5>
                     </div>
                 </div>
             </div>
 
-            <div class="grid grid-cols-6">
+            {/* <div class="grid grid-cols-6">
                 <div 
                     class="relative hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out"
                     onClick={() => setShowModal(true)}>
@@ -191,9 +168,9 @@ const OurTeam = () => {
                 </div>
                 <div class="bg-gray-200 text-center hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out">
                     <img src={ursula} alt=""/>
-                </div>
+                </div> */}
                 
-            </div>
+            {/* </div> */}
             <Modal visible={showModal} onClose={handleOnClose} />
     </PageSection>
     
