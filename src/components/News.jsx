@@ -5,39 +5,9 @@ export const News = () => {
     const news = [
         {
             id: 1,
-            title: 'Nature 2022',
-            content: 'Spatial multi-omic map of human myocardial infarction. In this study we have utilized snRNA-seq, snATAC-seq and spatial transcriptomics to map human myocardial infarction at unprecedented resolution.',
-            link: 'https://www.nature.com/articles/s41586-022-05060-x'
-        },
-        {
-            id: 2,
-            title: 'Nature 2022',
-            content: 'Spatial multi-omic map of human myocardial infarction. In this study we have utilized snRNA-seq, snATAC-seq and spatial transcriptomics to map human myocardial infarction at unprecedented resolution.',
-            link: 'https://www.nature.com/articles/s41586-022-05060-x'
-        },
-        {
-            id: 3,
-            title: 'Nature 2022',
-            content: 'Spatial multi-omic map of human myocardial infarction. In this study we have utilized snRNA-seq, snATAC-seq and spatial transcriptomics to map human myocardial infarction at unprecedented resolution.',
-            link: 'https://www.nature.com/articles/s41586-022-05060-x'
-        },
-        {
-            id: 4,
-            title: 'Nature 2022',
-            content: 'Spatial multi-omic map of human myocardial infarction. In this study we have utilized snRNA-seq, snATAC-seq and spatial transcriptomics to map human myocardial infarction at unprecedented resolution.',
-            link: 'https://www.nature.com/articles/s41586-022-05060-x'
-        },
-        {
-            id: 5,
-            title: 'Nature 2022',
-            content: 'Spatial multi-omic map of human myocardial infarction. In this study we have utilized snRNA-seq, snATAC-seq and spatial transcriptomics to map human myocardial infarction at unprecedented resolution.',
-            link: 'https://www.nature.com/articles/s41586-022-05060-x'
-        },
-        {
-            id: 6,
-            title: 'Nature 2022',
-            content: 'Spatial multi-omic map of human myocardial infarction. In this study we have utilized snRNA-seq, snATAC-seq and spatial transcriptomics to map human myocardial infarction at unprecedented resolution.',
-            link: 'https://www.nature.com/articles/s41586-022-05060-x'
+            title: 'Press Release',
+            content: 'Short Description on Press Release',
+            link: ''
         },
     ]
   return (

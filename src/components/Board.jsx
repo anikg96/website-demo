@@ -14,10 +14,20 @@ const Board = () => {
     const [urlString, setUrlString] = useState('');
     const [clicked, setClicked] = useState(false);
 
-    const handleOnOpen = (urlString) => {
+    // Individual Details
+    const [personName, setPersonName] = useState('');
+    const [personDescription, setPersonDescription] = useState('');
+    const [personDesignation, setPersonDesignation] = useState('');
+    const [personLinkedInUrl, setPersonLinkedInUrl] = useState('');
+
+    const handleOnOpen = (urlString, iName, iDesignation, iDescription, iLUrl) => {
         setClicked(true)
         setShowModal(true)
         setUrlString(urlString)
+        setPersonName(iName)
+        setPersonDesignation(iDesignation)
+        setPersonDescription(iDescription)
+        setPersonLinkedInUrl(iLUrl)
     }
 
     const handleOnClose = () => {
@@ -67,7 +77,12 @@ const Board = () => {
         </div>
         <div class="flex flex-wrap p-8 gap-8 items-center justify-center">
             <div 
-            onClick={() => handleOnOpen(david)}
+            onClick={() => handleOnOpen(
+                david, 
+                "David Schilansky", 
+                "Board Member", 
+                "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
+                "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
             className={`relative w-full md:w-1/4 lg:w-1/4 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={david} alt="David Schilansky" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
@@ -75,7 +90,12 @@ const Board = () => {
                 </div>
             </div>
             <div 
-            onClick={() => handleOnOpen(rafael)}
+            onClick={() => handleOnOpen(
+                rafael, 
+                "Rafael Kramann", 
+                "Prof.", 
+                "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
+                "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
             className={`relative w-full md:w-1/4 lg:w-1/4 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={rafael} alt="Rafael Kramann" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
@@ -83,7 +103,12 @@ const Board = () => {
                 </div>
             </div>
             <div 
-            onClick={() => handleOnOpen(mark)}
+            onClick={() => handleOnOpen(
+                mark, 
+                "Mark Wolters", 
+                "Ph.D.", 
+                "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
+                "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
             className={`relative w-full md:w-1/4 lg:w-1/4 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={mark} alt="Mark Wolters" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
@@ -91,7 +116,7 @@ const Board = () => {
                 </div>
             </div>
         </div>
-        <Modal onClose={handleOnClose} visible={showModal} imgUrl={urlString}/>
+        <Modal onClose={handleOnClose} visible={showModal} imgUrl={urlString} name={personName} designation={personDesignation} description={personDescription} linkedinUrl={personLinkedInUrl}/>
     </PageSection>
   )
 }

@@ -81,7 +81,7 @@ const Founders = () => {
             <div 
             onClick={() => handleOnOpen(
                 rebekka,
-                "Rebekka Kramann",
+                "Rebekka Schneider",
                 "Prof.",
                 "Prof. Rebekka Schneider is a Founder of Sequantrix. She is a hematopathologist with strong background in clinical hematopathology and basic research. Rebekka is (i) Full Professor (W3) and Director of the Institute for Cell and Tumor Biology at the University Hospital RWTH Aachen, Germany, (ii) Associate Professor of Medicine at the Erasmus University Medical Center, Netherlands and (iii) PI at the Oncode Institute, Netherlands. She is an international opinion leader and inventor in the field of myelofibrosis and awardee of 2 ERC grants and multiple awards and prices. Her publication record is very strong: h = 41, >100 publications, citation percentile 90",
                 "https://www.linkedin.com/in/rebekka-k-schneider-md-phd-78748193")}
@@ -122,7 +122,7 @@ const Founders = () => {
                 michael,
                 "Michael Rheinnecker",
                 "Ph.D.",
-                "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and Resident Physician at the Clinic for Renal and Hypertensive Diseases, Rheumatologic and Immunologic Diseases, Klinik II, University Hospital RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, He was previously Medical Research Fellow at Harvard Mecical School. Konrad advises Sequantrix on target science.",
+                "Dr. Michael Rheinnecker is a Co-Founder of Sequantrix. He is an experienced biotech entrepreneur and has over 30 years of experience in research (MorphoSys), licensing (Grünenthal) and management (Spintec, PNO, CYSAL). He is also a successful seed and early-stage investor (TechnoStart) with a net fund multiple of >2.3 (vintage 2001) and was founding investor of Graffinity (exit as Santhera, SWX:SANN) and Complex Biosystems (exit as Ascendis Pharma, NASDAQ:ASND).",
                 "https://www.linkedin.com/in/michael-rheinnecker/")}
             className={`relative w-1/2 md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={michael} alt="Michael Rheinnecker" />
