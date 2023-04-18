@@ -24,8 +24,6 @@ function App() {
       <hr />
       <Approach />
       <hr />
-      <ResearchAreas />
-      <hr />
       <News />
       <hr />
       <ContactUs />

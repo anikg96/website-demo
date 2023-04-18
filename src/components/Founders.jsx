@@ -70,9 +70,9 @@ const Founders = () => {
                 rafael, 
                 "Rafael Kramann", 
                 "Prof.", 
-                "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
+                "Prof. Rafael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology and Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology, both at the University Hospital RWTH Aachen, Germany, and (ii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices.",
                 "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
-            className={`relative w-1/2 md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
+            className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={rafael} alt="Rafael Kramann" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
                     <h5>Rafael Kramann, Prof.</h5>
@@ -83,9 +83,9 @@ const Founders = () => {
                 rebekka,
                 "Rebekka Schneider",
                 "Prof.",
-                "Prof. Rebekka Schneider is a Founder of Sequantrix. She is a hematopathologist with strong background in clinical hematopathology and basic research. Rebekka is (i) Full Professor (W3) and Director of the Institute for Cell and Tumor Biology at the University Hospital RWTH Aachen, Germany, (ii) Associate Professor of Medicine at the Erasmus University Medical Center, Netherlands and (iii) PI at the Oncode Institute, Netherlands. She is an international opinion leader and inventor in the field of myelofibrosis and awardee of 2 ERC grants and multiple awards and prices. Her publication record is very strong: h = 41, >100 publications, citation percentile 90",
+                "Prof. Rebekka Schneider is a Founder of Sequantrix. She is a hematopathologist with strong background in clinical hematopathology and basic research. Rebekka is (i) Full Professor (W3) and Director of the Institute for Cell and Tumor Biology at the University Hospital RWTH Aachen, Germany, (ii) Associate Professor of Medicine at the Erasmus University Medical Center, Netherlands and (iii) PI at the Oncode Institute, Netherlands. She is an international opinion leader and inventor in the field of myelofibrosis and awardee of 2 ERC grants and multiple awards and prizes.",
                 "https://www.linkedin.com/in/rebekka-k-schneider-md-phd-78748193")}
-            className={`relative w-1/2 md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
+            className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={rebekka} alt="Rebekka Kramann-Schneider" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
                     <h5>Rebekka Schneider, Prof.</h5>
@@ -96,9 +96,9 @@ const Founders = () => {
                 sikander,
                 "Sikander Hayat",
                 "Ph.D.",
-                "Dr. Sikander Hayat is a Co-Founder of Sequantrix. He is a translational data scientist with strong background in single-cell, spatial transcriptomics, multi-omics data analyses and machine learning to reveal novel insights into disease biology and discover drug targets. Sikander is a Group Leader, Translational Data Science, at the Institute of Experimental Medicine and Systems Biology at University Hospital RWTH Aachen. Sikander held previously various positions at Bayer (Science Fellow, Senior Computational Biologist at Bayer-Broad Institute Joint Precision Cardiology Lab, Research Scientist), was Visiting Scientist at the Broad Institute of MIT and Harvard and Senior Post-Doc at Harvard Medical School. Sikander advises Sequantrix on translational data science.",
+                "Dr. Sikander Hayat is a Co-Founder of Sequantrix. He is a computational biologist with strong background in single-cell, spatial transcriptomics, multi-omics data analyses and machine learning. He is on a quest to reveal novel insights into disease biology and discover drug targets in a data-driven manner. Sikander is also a Group Leader, Translational Data Science, at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen. Sikander previously held various positions at Bayer (Science Fellow, Senior Computational Biologist at Bayer-Broad Institute Joint Precision Cardiology Lab, Research Scientist), was Visiting Scientist at the Broad Institute of MIT and Harvard and a Senior Post-Doc at Harvard Medical School and Memorial Sloan Kettering Cancer Center. Sikander advises Sequantrix on translational data science.",
                 "https://www.linkedin.com/in/shayat")}
-            className={`relative w-1/2 md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
+            className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={sikander} alt="Sikander Hayat" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
                     <h5>Sikander Hayat, Ph.D.</h5>
@@ -109,9 +109,9 @@ const Founders = () => {
                 konrad,
                 "Konrad Hoeft",
                 "M.D.",
-                "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and Resident Physician at the Clinic for Renal and Hypertensive Diseases, Rheumatologic and Immunologic Diseases, Klinik II, University Hospital RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, He was previously Medical Research Fellow at Harvard Mecical School. Konrad advises Sequantrix on target science.",
-                "")}
-            className={`relative w-1/2 md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
+                "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and resident physician at the at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at University Hospital RWTH Aachen. His research focuses on dissecting the molecular and cellular cues driving fibroblast activation to identify novel therapeutic approaches for fibrosis. Konrad was previously an MD Research Fellow at the Massachusetts General Hospital (Harvard Medical School). Konrad advises Sequantrix on target science.",
+                "https://www.linkedin.com/in/konrad-hoeft-455862272")}
+            className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={konrad} alt="Konrad Hoeft" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
                     <h5>Konrad Hoeft, M.D.</h5>
@@ -122,9 +122,9 @@ const Founders = () => {
                 michael,
                 "Michael Rheinnecker",
                 "Ph.D.",
-                "Dr. Michael Rheinnecker is a Co-Founder of Sequantrix. He is an experienced biotech entrepreneur and has over 30 years of experience in research (MorphoSys), licensing (Grünenthal) and management (Spintec, PNO, CYSAL). He is also a successful seed and early-stage investor (TechnoStart) with a net fund multiple of >2.3 (vintage 2001) and was founding investor of Graffinity (exit as Santhera, SWX:SANN) and Complex Biosystems (exit as Ascendis Pharma, NASDAQ:ASND).",
+                "Dr. Michael Rheinnecker is a Co-Founder and CEO of Sequantrix. He is an experienced biotech entrepreneur and has over 30 years of experience in research (MorphoSys), licensing (Grünenthal) and management (Spintec, PNO, CYSAL). He also was a Managing Partner at TechnoStart Ventures and founding investor of Graffinity (exit as Santhera, SWX:SANN) and Complex Biosystems (exit as Ascendis Pharma, NASDAQ:ASND). Michael received his Ph.D. in molecular biology from Cambridge University in the laboratory of Sir Alan R. Fersht FRS at the MRC Unit for Protein Function and Design.",
                 "https://www.linkedin.com/in/michael-rheinnecker/")}
-            className={`relative w-1/2 md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
+            className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={michael} alt="Michael Rheinnecker" />
                 <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-black bg-opacity-50 text-white">
                     <h5>Michael Rheinnecker, Ph.D. </h5>
