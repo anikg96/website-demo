@@ -21,10 +21,10 @@ const HeroSection = () => {
                         Sequantrix was created by leading pioneers in fibrosis research, clinical care and computational science to address the large, unmet medical need for antifibrotic therapies.
                         </p><br></br> 
                         <p className="text-xl w-full mx-auto justify-center"> 
-                        Our approach starts with the discovery and validation of novel, antifibrotic targets by leveraging one of the world’s largest human single-cell, multi-modal datasets in the field of fibrotic diseases. 
+                        Our approach starts with the systematic discovery and validation of novel, antifibrotic targets by leveraging some of the world’s largest human multi-modal, single-cell datasets in the field of fibrotic diseases. 
                         </p><br></br>
                         <p className="text-xl w-full mx-auto justify-center"> 
-                        Our aim is to develop anti-fibrotic drug candidates up to the clinical proof of concept. We have already identified several novel anti-fibrotic targets of high biological relevance and will swiftly move to drug candidate development. 
+                        Our aim is to develop anti-fibrotic drug candidates up to the clinical proof of concept. We have identified several novel anti-fibrotic targets of high biological relevance and will swiftly move to drug candidate development. 
                         </p>
                         <br></br>
                         <br></br>

@@ -4,6 +4,16 @@ import uka from '../assets/team/uka.png';
 import rwthinno from '../assets/team/rwthinno.png';
 
 const Approach = () => {
+
+  const handleUkaClick = () => {
+    window.open("https://www.ukaachen.de/", '_blank');
+}
+
+const handleInnoClick = () => {
+  window.open("https://www.rwth-innovation.de/de/", '_blank');
+}
+
+
   return (
     <PageSection
     name="approach"
@@ -24,7 +34,7 @@ const Approach = () => {
     <li>&emsp;•	the bone marrow of patients with myelofibrosis.</li>
 </ul>
 <br></br>
-In sum, nearly 45% of all deaths in the developed world can be attributed to an underlying fibrotic disease (Wynn, T. J Pathol 214:199, 2008).
+In sum, nearly 45% of all deaths in the developed world can be attributed to an underlying fibrotic disease (Henderson NC, Rieder F, Wynn TA. Fibrosis: from mechanisms to medicines. Nature. 2020 Nov;587(7835):555-566).
 </p>
 <br></br><br></br>
 <h1 className='text-3xl'>Medical need</h1>
@@ -64,8 +74,8 @@ In sum, nearly 45% of all deaths in the developed world can be attributed to an 
         <h1 className='text-3xl'>History</h1>
         <br></br>
         <p>Sequantrix is a spin-out of the University Hospital RWTH Aachen, Germany and is based on decade-long research and clinical expertise of Prof. Rafael Kramann and Prof. Rebekka Schneider in the field of fibrosis. The UKA has supported the spin-out process through its technology transfer organisation RWTH Innovation GmbH by transferring assets and IP and continues to keep close ties through joint research projects.</p>
-        <img src={uka}/>
-        <img src={rwthinno}/>
+        <img className="hover:cursor-pointer"  src={uka} onClick={handleUkaClick}/>
+        <img className="hover:cursor-pointer" src={rwthinno} onClick={handleInnoClick} />
     </PageSection>
   )
 }

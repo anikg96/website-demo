@@ -46,7 +46,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
         {
             id: 7,
             link: 'Contact',
-            component: 'pipe'
+            component: 'contact'
         },
     ]
 

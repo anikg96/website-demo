@@ -7,6 +7,8 @@ import michael from '../assets/team/michael-min.jpg';
 
 import rafael from '../assets/team/rafael-min.jpg';
 
+import email from '../assets/team/email.JPG';
+
 import sikander from '../assets/team/sikander-min.jpg';
 import jitske from '../assets/team/jitske-min.jpg';
 import konrad from '../assets/team/konrad-min.jpg';
@@ -77,7 +79,7 @@ const OurTeam = () => {
                     felix, 
                     "Felix Schreibing", 
                     "M.D.", 
-                    "Dr. Felix Schreibing is a Medical Bioinformatician at Sequantrix. Previously he worked as scientist at the Institute of Experimental Medicine and Systems Biology and as Resident Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen.",
+                    "Dr. Felix Schreibing is a Medical Bioinformatician at Sequantrix. He is a physician scientist with a keen interest in bioinformatics. Dr. Schreibing previously worked as scientist at the Institute of Experimental Medicine and Systems Biology and as a Resident Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen. He brings a unique mix of computational biology, expertise in fibrosis, and his medical background to the team.",
                     "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={felix} alt=""/>
@@ -91,7 +93,7 @@ const OurTeam = () => {
                     hyojin, 
                     "Hyojin Kim", 
                     "Ph.D.", 
-                    "Dr. Hyojin Kim is a Computational Biologist at Sequantrix. Previously she was a Post-Doc at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen where she extensively worked on single-cell, bulk & spatial RNA-seq data analysis and machine learning. Prior to that she worked on highly collaborative projects on heart and kidney single-cell analyses at the University Hospital Heidelberg. Dr. Kim also worked in South Korea as Bioinformatics Researcher at the Samsung Advanced Institute for Health Sciences & Technology and at the Yonsei University.",
+                    "Dr. Hyojin Kim is a Computational Biologist at Sequantrix. Previously she was a Post-Doc at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen where she extensively worked on single-cell, bulk & spatial RNA-seq data analysis and machine learning. Prior to that she worked on highly collaborative projects on heart and kidney single-cell analyses at the University Hospital Heidelberg. Dr. Kim also worked in South Korea as a Bioinformatics Researcher at the Samsung Advanced Institute for Health Sciences & Technology and at the Yonsei University.",
                     "https://www.linkedin.com/in/hyojin-kim-b3bb711ab")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={hyojin} alt=""/>
@@ -278,17 +280,47 @@ const OurTeam = () => {
             {/* </div> */}
             <Modal onClose={handleOnClose} visible={showModal} imgUrl={urlString} name={personName} designation={personDesignation} description={personDescription} linkedinUrl={personLinkedInUrl}/>
     </PageSection>
-    <PageSection
+    {/* <PageSection
     name="positions"
     title="Open Positions"
     subtitle={``}>
-        <h1>Group Leader</h1>
+        <h1>Group Leader Biocomputing</h1>
         <h1>Scientists Deep Learning, Machine Learning</h1>
         <h1>Research Technician with cell culture experience</h1>
         <br></br>
         <br></br>
         <h1>Please send us an email at info@sequantrix.bio for more information regarding open positions</h1>
-    </PageSection>
+    </PageSection> */}
+
+
+    <div name="positions" class="max-w-screen-xl mx-auto">
+        <div class="my-16 mx-8 text-center lg:text-left">
+            <h1 class="text-5xl">
+                Open Positions
+            </h1>
+            <br></br>
+            <h1>Group Leader Biocomputing</h1>
+            <h1>Scientists Deep Learning, Machine Learning</h1>
+            <h1>Research Technician with cell culture experience</h1>
+            <br></br>
+            <h1>For more information regarding open positions, please send an email to:</h1>
+            <img className="h-[25px] items-start" src={email}/>
+        </div>
+    </div>
+    
+    {/* <div className="mx-8 my-auto">
+        <div className='text-center lg:text-left'>
+            <h1 name="positions" className="text-5xl">Open Positions</h1>
+            <br></br>
+            <h1>Group Leader Biocomputing</h1>
+            <h1>Scientists Deep Learning, Machine Learning</h1>
+            <h1>Research Technician with cell culture experience</h1>
+            <br></br>
+            <br></br>
+            <h1>Please send us an email at info@sequantrix.bio for more information regarding open positions</h1>
+        </div>
+    </div> */}
+    
     </>
   )
 }

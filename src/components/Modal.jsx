@@ -25,7 +25,7 @@ export default function Modal({visible, onClose, imgUrl, name, designation, desc
                         <img className="h-96" src={imgUrl} alt={imgUrl}/>
                     </div>
                     
-                    <div className="h-[50] md:w-2/3 md:h-96 lg:w-2/3 lg:h-96 p-8">
+                    <div className="h-2/3 md:w-2/3 md:h-2/3 lg:w-2/3 lg:h-2/3 p-8">
                         <div className="flex flex-wrap">
                             <h1 className="text-3xl">{name}&nbsp;</h1> <FaLinkedin  className="hover:cursor-pointer" onClick={handleIconClick} size="2.5rem"/>
                         </div>
