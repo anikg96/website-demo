@@ -1,5 +1,7 @@
 import React from 'react'
 import PageSection from './PageSection'
+import uka from '../assets/team/uka.png';
+import rwthinno from '../assets/team/rwthinno.png';
 
 const Approach = () => {
   return (
@@ -9,9 +11,8 @@ const Approach = () => {
     subtitle="">
         <h1 className='text-3xl'>About fibrosis</h1>
         <br></br>
-        <p>Tissue fibrosis, or scar formation, is the common final pathway of virtually all progressive diseases and inflicts damage in every major organ including kidney, heart, bone marrow, lung, liver, muscle and skin.
-</p>
-<p>Scar tissue can form after an acute injury, or gradually as a result of chronic agitation or damage from a separate underlying malady such as diabetes or hypertension over several years.</p>
+        <p>Tissue fibrosis, or scar formation, is the common final pathway of virtually all progressive diseases and inflicts damage in every major organ including kidney, heart, bone marrow, lung, liver, muscle and skin. Scar tissue can form after an acute injury, or gradually as a result of chronic agitation or damage from a separate underlying malady such as diabetes or hypertension over several years.</p>
+<br></br>
 <p>While deposition of fibrotic matrix immediately after injury sustains tissue integrity, unchecked fibrotic matrix deposition, in particular during chronic or repetitive injury, slowly disrupts tissue architecture and drives maladaptive tissue remodeling, ultimately leading to loss of functional tissue and organ failure.</p>
 <br></br>
 <p>As such, fibrosis destroys the <br></br><br></br>
@@ -28,10 +29,10 @@ In sum, nearly 45% of all deaths in the developed world can be attributed to an 
 <br></br><br></br>
 <h1 className='text-3xl'>Medical need</h1>
         <br></br>
-        <p>Despite the evident medical need, there is a dire innovation gap in the fibrosis disease space. Specific antifibrotic therapies do not exist for most organs including the kidney, heart, liver, skin, and the bone-marrow. This is due to an incomplete understanding of disease driving mechanisms. In addition, current drug candidates under investigation may still not target the “achilles heel” of the disease. </p>
+        <p>Despite the evident medical need, there is a dire innovation gap in the fibrosis disease space. Specific antifibrotic therapies do not exist for most organs including the kidney, heart, liver, skin, and the bone marrow. This is due to an incomplete understanding of disease driving mechanisms. In addition, current drug candidates under investigation may still not target the “achilles heel” of the disease. </p>
         <br></br>
-        <p>We believe that successful development of ground-breaking, targeted anti-fibrotic therapies requires a hitherto unattainably deep understanding of the molecular cues that drive disease biology on a cellular level.</p>
-        <br></br>
+        <p>We believe that successful development of groundbreaking, targeted anti-fibrotic therapies requires a hitherto unattainably deep understanding of the molecular cues that drive disease biology on a cellular level.</p>
+        <br></br><br></br>
         <h1 className='text-3xl'>Technology</h1>
         <br></br>
         <p className="font-bold">Sequantrix identifies and validates novel, antifibrotic targets by leveraging one of the world’s largest human single-cell, multi-modal datasets in the field of fibrotic diseases and aims to develop anti-fibrotic drug candidates up to clinical proof of concept.</p>
@@ -49,21 +50,22 @@ In sum, nearly 45% of all deaths in the developed world can be attributed to an 
         </br>
         <p>
           <span className="font-bold">
-            The top scoring targets from our FibroMiner/Decoder pipeline are directly validated in human disease using state-of-the-art organoid-based disease models. 
+            The top scoring targets from our FibroMiner/Decoder pipeline are directly validated in human disease using state-of-the-art organoid-based disease models.&nbsp;
           </span>
-          Validation of drug candidates in animals is complex and time-consuming, but also limited due to inter-species differences that can prevent direct translation of insights gained from animals to human disease. We aim at reducing the need for animal experiments, increasing throughput and saving time by using proprietary human organoid systems and modelling complex human organs in a dish to validate top scoring targets from our FibroMiner/Decoder pipeline directly in human disease.
+           Validation of drug candidates in animals is complex and time-consuming, but also limited due to inter-species differences that can prevent direct translation of insights gained from animals to human disease. We aim at reducing the need for animal experiments, increasing throughput and saving time by using proprietary human organoid systems and modelling complex human organs in a dish to validate top scoring targets from our FibroMiner/Decoder pipeline directly in human disease.
         </p>
         <br>
-        </br>
+        </br><br></br>
         <h1 name="pipe" className='text-3xl'>Pipeline</h1>
         <br></br>
         <p>Using our FibroMiner/Decoder platform we have already identified several novel anti-fibrotic targets of high biological relevance that are currently being validated in our fibrosis models and will swiftly move to drug candidate development.</p>
         <br>
-        </br>
+        </br><br></br>
         <h1 className='text-3xl'>History</h1>
         <br></br>
-        <p>Sequantrix is a spin-out of the University Hospital RWTH Aachen (UKA), Germany and is based on decade-long research and clinical expertise of Prof. Rafael Kramann and Prof. Rebekka Schneider in the field of fibrosis. The UKA has supported the spin-out process through its technology transfer organisation RWTH Innovation GmbH by transferring assets and IP and continues to keep close ties through joint research projects.</p>
-
+        <p>Sequantrix is a spin-out of the University Hospital RWTH Aachen, Germany and is based on decade-long research and clinical expertise of Prof. Rafael Kramann and Prof. Rebekka Schneider in the field of fibrosis. The UKA has supported the spin-out process through its technology transfer organisation RWTH Innovation GmbH by transferring assets and IP and continues to keep close ties through joint research projects.</p>
+        <img src={uka}/>
+        <img src={rwthinno}/>
     </PageSection>
   )
 }

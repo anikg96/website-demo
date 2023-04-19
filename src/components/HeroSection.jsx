@@ -1,12 +1,19 @@
 import React, {useState} from "react";
-import rotgif from "../assets/rot.gif"
 import sequantrix from "../assets/team/sequantrix2.jpg";
+import hbio from "../assets/team/Logo_Home_Biosciences.jpg";
 const HeroSection = () => {
+
+    const handleOnClick = () => {
+        window.open("https://homebiosciences.com/", '_blank');
+    }
+
     return (
-        <div name="homepage" className="flex items-center  w-full h-screen text-center" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/rot.gif)`}}>
+        <div name="homepage" className="flex items-center  w-full h-screen text-center">
             <div className={`flex flex-col items-start justify-center bg-white`}>
+                <br></br>
+                <br></br>
                 <div className={`lg:p-2 p-5 mx-auto`}>
-                    <img src={sequantrix} alt="" />
+                    <img className={'h-1/2 w-1/2 mx-auto'} src={sequantrix} alt="" />
 
                 </div>
                 <div class="bottom-20 left-0 right-0 px-12 py-10 bg-white text-black">
@@ -19,10 +26,16 @@ const HeroSection = () => {
                         <p className="text-xl w-full mx-auto justify-center"> 
                         Our aim is to develop anti-fibrotic drug candidates up to the clinical proof of concept. We have already identified several novel anti-fibrotic targets of high biological relevance and will swiftly move to drug candidate development. 
                         </p>
+                        <br></br>
+                        <br></br>
+                        <hr className="w-2/3 mx-auto"></hr>
+                        <br></br>
+                        <div className="flex flex-col lg:flex-col md:flex-col justify-center text-center items-center">
+                            <h1 className="m-0 w-1/3 text-sm">Supported by</h1>
+                            <br></br>
+                            <img className="items-left w-[130px] hover:cursor-pointer" src={hbio} alt={"Home Biosciences"} onClick={handleOnClick}/>
+                        </div>
                 </div>
-                {/* <h1 className="font-medium leading-tight text-5xl mt-0 mb-2 text-white">Kramann Lab</h1>
-                <h5>Translational research on solid organ fibrosis</h5>
-                <h5>and cardiovascular disease in chronic kidney disease</h5> */}
             </div>
         </div>
     );

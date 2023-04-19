@@ -70,7 +70,7 @@ const Founders = () => {
                 rafael, 
                 "Rafael Kramann", 
                 "Prof.", 
-                "Prof. Rafael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology and Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology, both at the University Hospital RWTH Aachen, Germany, and (ii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices.",
+                "Prof. Rafael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology and Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology, both at the University Hospital RWTH Aachen, Germany, and (ii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prizes.",
                 "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
             className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={rafael} alt="Rafael Kramann" />
@@ -109,7 +109,7 @@ const Founders = () => {
                 konrad,
                 "Konrad Hoeft",
                 "M.D.",
-                "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and resident physician at the at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at University Hospital RWTH Aachen. His research focuses on dissecting the molecular and cellular cues driving fibroblast activation to identify novel therapeutic approaches for fibrosis. Konrad was previously an MD Research Fellow at the Massachusetts General Hospital (Harvard Medical School). Konrad advises Sequantrix on target science.",
+                "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and resident physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at University Hospital RWTH Aachen. His research focuses on dissecting the molecular and cellular cues driving fibroblast activation to identify novel therapeutic approaches for fibrosis. Konrad was previously an MD Research Fellow at the Massachusetts General Hospital (Harvard Medical School). Konrad advises Sequantrix on target science.",
                 "https://www.linkedin.com/in/konrad-hoeft-455862272")}
             className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={konrad} alt="Konrad Hoeft" />
@@ -122,7 +122,7 @@ const Founders = () => {
                 michael,
                 "Michael Rheinnecker",
                 "Ph.D.",
-                "Dr. Michael Rheinnecker is a Co-Founder and CEO of Sequantrix. He is an experienced biotech entrepreneur and has over 30 years of experience in research (MorphoSys), licensing (Grünenthal) and management (Spintec, PNO, CYSAL). He also was a Managing Partner at TechnoStart Ventures and founding investor of Graffinity (exit as Santhera, SWX:SANN) and Complex Biosystems (exit as Ascendis Pharma, NASDAQ:ASND). Michael received his Ph.D. in molecular biology from Cambridge University in the laboratory of Sir Alan R. Fersht FRS at the MRC Unit for Protein Function and Design.",
+                "Dr. Michael Rheinnecker is a Co-Founder and CEO of Sequantrix. He is a biotech entrepreneur and has over 30 years of experience in research (MorphoSys), licensing (Grünenthal) and management (Spintec, PNO, CYSAL). He was also a Managing Partner at TechnoStart Ventures and founding investor of Graffinity (exit as Santhera, SWX:SANN) and Complex Biosystems (exit as Ascendis Pharma, NASDAQ:ASND). Michael received his Ph.D. in molecular biology from Cambridge University in the laboratory of Sir Alan R. Fersht FRS at the MRC Unit for Protein Function and Design.",
                 "https://www.linkedin.com/in/michael-rheinnecker/")}
             className={`relative w-full md:w-1/5 lg:w-1/5 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={michael} alt="Michael Rheinnecker" />

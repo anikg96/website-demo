@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Element } from "react-scroll";
-import logo from "../assets/logo.png";
 
 import seq from "../assets/team/seq.jpg";
 
@@ -31,13 +30,13 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
         },
         {
             id: 4,
-            link: 'Approach',
-            component: 'approach'
+            link: 'Open Positions',
+            component: 'positions'
         },
         {
             id: 5,
-            link: 'Research',
-            component: 'research'
+            link: 'Approach',
+            component: 'approach'
         },
         {
             id: 6,
