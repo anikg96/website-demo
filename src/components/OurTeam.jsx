@@ -79,7 +79,7 @@ const OurTeam = () => {
                     felix, 
                     "Felix Schreibing", 
                     "M.D.", 
-                    "Dr. Felix Schreibing is a Medical Bioinformatician at Sequantrix. He is a physician scientist with a keen interest in bioinformatics. Dr. Schreibing previously worked as scientist at the Institute of Experimental Medicine and Systems Biology and as a Resident Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen. He brings a unique mix of computational biology, expertise in fibrosis, and his medical background to the team.",
+                    "Dr. Felix Schreibing is a Medical Bioinformatician at Sequantrix. He is a physician scientist with a keen interest in bioinformatics. Dr. Schreibing previously worked as scientist at the Institute of Experimental Medicine and Systems Biology and as a Resident Physician at the Department of Nephrology and Clinical Immunology at the Uniklinik RWTH Aachen. He brings a unique mix of computational biology, expertise in fibrosis, and his medical background to the team.",
                     "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={felix} alt=""/>
@@ -93,7 +93,7 @@ const OurTeam = () => {
                     hyojin, 
                     "Hyojin Kim", 
                     "Ph.D.", 
-                    "Dr. Hyojin Kim is a Computational Biologist at Sequantrix. Previously she was a Post-Doc at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen where she extensively worked on single-cell, bulk & spatial RNA-seq data analysis and machine learning. Prior to that she worked on highly collaborative projects on heart and kidney single-cell analyses at the University Hospital Heidelberg. Dr. Kim also worked in South Korea as a Bioinformatics Researcher at the Samsung Advanced Institute for Health Sciences & Technology and at the Yonsei University.",
+                    "Dr. Hyojin Kim is a Computational Biologist at Sequantrix. Previously she was a Post-Doc at the Institute of Experimental Medicine and Systems Biology at the Uniklinik RWTH Aachen where she extensively worked on single-cell, bulk & spatial RNA-seq data analysis and machine learning. Prior to that she worked on highly collaborative projects on heart and kidney single-cell analyses at the University Hospital Heidelberg. Dr. Kim also worked in South Korea as a Bioinformatics Researcher at the Samsung Advanced Institute for Health Sciences & Technology and at the Yonsei University.",
                     "https://www.linkedin.com/in/hyojin-kim-b3bb711ab")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={hyojin} alt=""/>
@@ -107,7 +107,7 @@ const OurTeam = () => {
                     jitske, 
                     "Jitske Jansen",
                     "Ph.D.", 
-                    "Dr. Jitske Jansen is the Group Leader Target Validation at Sequantrix. She is the awardee of the TOPX Female2Follow Rising Star in Science Award 2022. Jitske has been instrumental in developing complex organoid model systems and has been a Group Leader for Translational Kidney Research at the Institute of Experimental Medicine and Systems Biology at University Hospital RWTH Aachen. Previously, she was Assistant Professor at Radboud University and Post-Doc at Utrecht University and the Murdoch Childrens Research Institute (Australia) and was awarded several prestigious personal grants during the past years. Jitske received her Ph.D. in Biomedical Sciences from the Radboud University Medical Center, Netherlands and she received the Young Investigator Award from the Federation of European Pharmacological Societies for her Ph.D. research.",
+                    "Dr. Jitske Jansen is the Group Leader Target Validation at Sequantrix. She is the awardee of the TOPX Female2Follow Rising Star in Science Award 2022. Jitske has been instrumental in developing complex organoid model systems and has been a Group Leader for Translational Kidney Research at the Institute of Experimental Medicine and Systems Biology at Uniklinik RWTH Aachen. Previously, she was Assistant Professor at Radboud University and Post-Doc at Utrecht University and the Murdoch Childrens Research Institute (Australia) and was awarded several prestigious personal grants during the past years. Jitske received her Ph.D. in Biomedical Sciences from the Radboud University Medical Center, Netherlands and she received the Young Investigator Award from the Federation of European Pharmacological Societies for her Ph.D. research.",
                     "https://www.linkedin.com/in/jitske-jansen-001499129")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={jitske} alt=""/>
@@ -121,7 +121,7 @@ const OurTeam = () => {
                     konrad, 
                     "Konrad Hoeft", 
                     "M.D.", 
-                    "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and resident physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at University Hospital RWTH Aachen. His research focuses on dissecting the molecular and cellular cues driving fibroblast activation to identify novel therapeutic approaches for fibrosis. Konrad was previously an MD Research Fellow at the Massachusetts General Hospital (Harvard Medical School). Konrad advises Sequantrix on target science.",
+                    "Dr. Konrad Hoeft is a Co-Founder of Sequantrix. He is a nephrologist in training and resident physician at the Department of Nephrology and Clinical Immunology at the Uniklinik RWTH Aachen. He is also a Post-Doctoral Research Fellow at the Institute of Experimental Medicine and Systems Biology at Uniklinik RWTH Aachen. His research focuses on dissecting the molecular and cellular cues driving fibroblast activation to identify novel therapeutic approaches for fibrosis. Konrad was previously an MD Research Fellow at the Massachusetts General Hospital (Harvard Medical School). Konrad advises Sequantrix on target science.",
                     "https://www.linkedin.com/in/konrad-hoeft-455862272")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={konrad} alt=""/>
@@ -135,7 +135,7 @@ const OurTeam = () => {
                     maurice, 
                     "Maurice Halder", 
                     "Ph.D.", 
-                    "Dr. Maurice Halder will be a Target Validation Scientist at Sequantrix (joining this summer). He is currently a Post-Doc at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen and recently finished his Ph.D. on investigating the mechanisms and cells that drive fibrosis in multiple diseases including heart failure, stent restenosis and polycystic kidney disease.",
+                    "Dr. Maurice Halder will be a Target Validation Scientist at Sequantrix (joining this summer). He is currently a Post-Doc at the Institute of Experimental Medicine and Systems Biology at the Uniklinik RWTH Aachen and recently finished his Ph.D. on investigating the mechanisms and cells that drive fibrosis in multiple diseases including heart failure, stent restenosis and polycystic kidney disease.",
                     "https://www.linkedin.com/in/maurice-halder-71a231128")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={maurice} alt=""/>
@@ -149,7 +149,7 @@ const OurTeam = () => {
                     "", 
                     "Rafael Kramann", 
                     "Prof.", 
-                    "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the University Hospital RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
+                    "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the Uniklinik RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
                     "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 border border-solid border-black text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={""} alt=""/>
@@ -177,7 +177,7 @@ const OurTeam = () => {
                     niclas, 
                     "Niclas Flosdorf", 
                     "Ph.D.", 
-                    "Dr. Niclas Flosdorf will be a Target Validation Scientist at Sequantrix (joining this summer). He is currently a Post-Doc at the Institute for Cell and Tumor Biology at the University Hospital RWTH Aachen and recently finished his Ph.D. on investigating the role of megakaryocytes in myeloproliferative diseases using iPSC and 3D cell culture models.",
+                    "Dr. Niclas Flosdorf will be a Target Validation Scientist at Sequantrix (joining this summer). He is currently a Post-Doc at the Institute for Cell and Tumor Biology at the Uniklinik RWTH Aachen and recently finished his Ph.D. on investigating the role of megakaryocytes in myeloproliferative diseases using iPSC and 3D cell culture models.",
                     "https://www.linkedin.com/in/niclas-flosdorf-88688b169")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={niclas} alt=""/>
@@ -191,7 +191,7 @@ const OurTeam = () => {
                 sikander,
                 "Sikander Hayat",
                 "Ph.D.",
-                "Dr. Sikander Hayat is a Co-Founder of Sequantrix. He is a computational biologist with strong background in single-cell, spatial transcriptomics, multi-omics data analyses and machine learning. He is on a quest to reveal novel insights into disease biology and discover drug targets in a data-driven manner. Sikander is also a Group Leader, Translational Data Science, at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen. Sikander previously held various positions at Bayer (Science Fellow, Senior Computational Biologist at Bayer-Broad Institute Joint Precision Cardiology Lab, Research Scientist), was Visiting Scientist at the Broad Institute of MIT and Harvard and a Senior Post-Doc at Harvard Medical School and Memorial Sloan Kettering Cancer Center. Sikander advises Sequantrix on translational data science.",
+                "Dr. Sikander Hayat is a Co-Founder of Sequantrix. He is a computational biologist with strong background in single-cell, spatial transcriptomics, multi-omics data analyses and machine learning. He is on a quest to reveal novel insights into disease biology and discover drug targets in a data-driven manner. Sikander is also a Group Leader, Translational Data Science, at the Institute of Experimental Medicine and Systems Biology at the Uniklinik RWTH Aachen. Sikander previously held various positions at Bayer (Science Fellow, Senior Computational Biologist at Bayer-Broad Institute Joint Precision Cardiology Lab, Research Scientist), was Visiting Scientist at the Broad Institute of MIT and Harvard and a Senior Post-Doc at Harvard Medical School and Memorial Sloan Kettering Cancer Center. Sikander advises Sequantrix on translational data science.",
                 "https://www.linkedin.com/in/shayat")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={sikander} alt=""/>
@@ -205,7 +205,7 @@ const OurTeam = () => {
                     susanne, 
                     "Susanne Schmitz", 
                     "MTLA", 
-                    "Susanne Schmitz is a research technician at Sequantrix and has a strong background in lab management. She was previously at the Institute for Cell and Tumor Biology at the University Hospital RWTH Aachen. Prior to that she worked at Amgen (Munich) and at the Technische Univ. München (TUM). Susanne successfully completed her training as a state-certified MTLA at the University Hospital RWTH Aachen.",
+                    "Susanne Schmitz is a research technician at Sequantrix and has a strong background in lab management. She was previously at the Institute for Cell and Tumor Biology at the Uniklinik RWTH Aachen. Prior to that she worked at Amgen (Munich) and at the Technische Univ. München (TUM). Susanne successfully completed her training as a state-certified MTLA at the Uniklinik RWTH Aachen.",
                     "https://www.linkedin.com/in/susanne-schmitz-426267126")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={susanne} alt=""/>
@@ -219,7 +219,7 @@ const OurTeam = () => {
                     ursula, 
                     "Ursula Förster", 
                     "B.Sc.", 
-                    "Ursula Förster will be a research technician at Sequantrix (joining this summer). She is currently at the Institute of Experimental Medicine and Systems Biology at the University Hospital RWTH Aachen. Prior to that she worked at Grünenthal GmbH, Aachen. Ursula received her B.Sc. at the Zuyd University of Applied Sciences at Heerlen, Netherlands and successfully completed her apprenticeship as Biology Laboratory Assistant at Grünenthal.",
+                    "Ursula Förster will be a research technician at Sequantrix (joining this summer). She is currently at the Institute of Experimental Medicine and Systems Biology at the Uniklinik RWTH Aachen. Prior to that she worked at Grünenthal GmbH, Aachen. Ursula received her B.Sc. at the Zuyd University of Applied Sciences at Heerlen, Netherlands and successfully completed her apprenticeship as Biology Laboratory Assistant at Grünenthal.",
                     "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={ursula} alt=""/>
@@ -301,7 +301,7 @@ const OurTeam = () => {
             <br></br>
             <h1>Group Leader Biocomputing</h1>
             <h1>Scientists Deep Learning, Machine Learning</h1>
-            <h1>Research Technician with cell culture experience</h1>
+            <h1>Research Technician with experience in (stem) cell culture, mol.biol. and immunostaining</h1>
             <br></br>
             <h1>For more information regarding open positions, please send an email to:</h1>
             <img className="h-[25px] items-start" src={email}/>

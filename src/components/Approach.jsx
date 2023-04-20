@@ -73,7 +73,7 @@ In sum, nearly 45% of all deaths in the developed world can be attributed to an 
         </br><br></br>
         <h1 className='text-3xl'>History</h1>
         <br></br>
-        <p>Sequantrix is a spin-out of the University Hospital RWTH Aachen, Germany and is based on decade-long research and clinical expertise of Prof. Rafael Kramann and Prof. Rebekka Schneider in the field of fibrosis. The UKA has supported the spin-out process through its technology transfer organisation RWTH Innovation GmbH by transferring assets and IP and continues to keep close ties through joint research projects.</p>
+        <p>Sequantrix is a spin-out of the Uniklinik RWTH Aachen, Germany and is based on decade-long research and clinical expertise of Prof. Rafael Kramann and Prof. Rebekka Schneider in the field of fibrosis. The Uniklinik RWTH Aachen has supported the spin-out process through its technology transfer organisation RWTH Innovation GmbH by transferring assets and IP and continues to keep close ties through joint research projects.</p>
         <img className="hover:cursor-pointer"  src={uka} onClick={handleUkaClick}/>
         <img className="hover:cursor-pointer" src={rwthinno} onClick={handleInnoClick} />
     </PageSection>
