@@ -47,35 +47,39 @@ In sum, nearly 45% of all deaths in the developed world can be attributed to an 
         <br></br>
         <p className="font-bold">Sequantrix identifies and validates novel, antifibrotic targets by leveraging one of the world’s largest human single-cell, multi-modal datasets in the field of fibrotic diseases and aims to develop anti-fibrotic drug candidates up to clinical proof of concept.</p>
         <br></br>
-        <p>We have generated proprietary high-quality single-cell human fibrotic datasets that allow us to map fibrosis at unprecedented resolution across major human organs. In-depth bioinformatic dissection of these datasets will enable a better understanding of the complex mechanisms driving myofibroblast activation, expansion, cellular-crosstalk and matrix deposition. Our datasets are being extensively annotated and analyzed, thereby leveraging state of the art bioinformatic pipelines as well as proprietary algorithms to identify promising candidates for drug development.</p>
+        <p>We have generated high-quality single-cell human fibrotic datasets that allow us to map fibrosis at unprecedented resolution across major human organs. In-depth bioinformatic dissection of these datasets will enable a better understanding of the complex mechanisms driving myofibroblast activation, expansion, cellular-crosstalk and matrix deposition. Our datasets are being extensively annotated and analyzed, thereby leveraging state of the art bioinformatic pipelines as well as proprietary algorithms to identify promising candidates for drug development.</p>
         <br></br>
         <p>
         Single-cell data provides an unparalleled window into cellular states associated with disease. However, successful discovery of the most biologically relevant anti-fibrotic targets,
           <span className="font-bold"> that are simultaneously well-suited for successful drug development</span>
           , requires a deep understanding of the relationship between cellular specificity derived from single-cell datasets, disease biology, phenotypic consequence, molecular and genetic factors, and therapeutic potential. 
-          <span className="font-bold"> We tackle this challenge through a truly data-driven approach based on our propietary FibroMiner/Decoder AI-platform </span>
+          <span className="font-bold"> We tackle this challenge through a truly data-driven approach based on our propietary FibroMiner / FibroDecoder AI-platform </span>
           that scores targets and nominates them for experimental validation.
         </p>
         <br>
         </br>
         <p>
           <span className="font-bold">
-            The top scoring targets from our FibroMiner/Decoder pipeline are directly validated in human disease using state-of-the-art organoid-based disease models.&nbsp;
+            The top scoring targets from our FibroMiner / FibroDecoder pipeline are directly validated in human disease using state-of-the-art organoid-based disease models.&nbsp;
           </span>
-           Validation of drug candidates in animals is complex and time-consuming, but also limited due to inter-species differences that can prevent direct translation of insights gained from animals to human disease. We aim at reducing the need for animal experiments, increasing throughput and saving time by using proprietary human organoid systems and modelling complex human organs in a dish to validate top scoring targets from our FibroMiner/Decoder pipeline directly in human disease.
+           Validation of drug candidates in animals is complex and time-consuming, but also limited due to inter-species differences that can prevent direct translation of insights gained from animals to human disease. We aim at reducing the need for animal experiments, increasing throughput and saving time by using proprietary human organoid systems and modelling complex human organs in a dish to validate top scoring targets from our FibroMiner / FibroDecoder pipeline directly in human disease.
         </p>
         <br>
         </br><br></br>
         <h1 name="pipe" className='text-3xl'>Pipeline</h1>
         <br></br>
-        <p>Using our FibroMiner/Decoder platform we have already identified several novel anti-fibrotic targets of high biological relevance that are currently being validated in our fibrosis models and will swiftly move to drug candidate development.</p>
+        <p>Using our FibroMiner / FibroDecoder platform we have already identified several novel anti-fibrotic targets of high biological relevance that are currently being validated in our fibrosis models and will swiftly move to drug candidate development.</p>
         <br>
         </br><br></br>
         <h1 className='text-3xl'>History</h1>
         <br></br>
         <p>Sequantrix is a spin-out of the Uniklinik RWTH Aachen, Germany and is based on decade-long research and clinical expertise of Prof. Rafael Kramann and Prof. Rebekka Schneider in the field of fibrosis. The Uniklinik RWTH Aachen has supported the spin-out process through its technology transfer organisation RWTH Innovation GmbH by transferring assets and IP and continues to keep close ties through joint research projects.</p>
-        <img className="hover:cursor-pointer"  src={uka} onClick={handleUkaClick}/>
-        <img className="hover:cursor-pointer" src={rwthinno} onClick={handleInnoClick} />
+        <div className="flex justify-center items-center md:justify-start lg:justify-start md:items-start lg:items-start w-full">
+          <img className="hover:cursor-pointer"  src={uka} onClick={handleUkaClick}/>
+        </div>
+        
+        {/* Removed logo for RWTH Innovation */}
+        {/* <img className="hover:cursor-pointer" src={rwthinno} onClick={handleInnoClick} /> */}
     </PageSection>
   )
 }

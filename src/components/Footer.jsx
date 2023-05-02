@@ -15,9 +15,13 @@ const Footer = () => {
       setShowModal(false)
   }
 
+  const shadowTopStyle = {
+    boxShadow: '0 -2px 6px rgba(0, 0, 0, 0.3)',
+  };
+
   return (
     <>
-    <div className="border-t border-white">
+    <div style={shadowTopStyle}>
       <div className="my-32 max-w-screen-xl mx-auto flex flex-col items-center">
         {/* <div className="grid grid-cols-2 lg:grid-cols-4 text-center gap-12">
           {menu.map(({ id, title, subMenu }) => (

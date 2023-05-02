@@ -282,21 +282,9 @@ const OurTeam = () => {
             {/* </div> */}
             <Modal onClose={handleOnClose} visible={showModal} imgUrl={urlString} name={personName} designation={personDesignation} description={personDescription} linkedinUrl={personLinkedInUrl}/>
     </PageSection>
-    {/* <PageSection
-    name="positions"
-    title="Open Positions"
-    subtitle={``}>
-        <h1>Group Leader Biocomputing</h1>
-        <h1>Scientists Deep Learning, Machine Learning</h1>
-        <h1>Research Technician with cell culture experience</h1>
-        <br></br>
-        <br></br>
-        <h1>Please send us an email at info@sequantrix.bio for more information regarding open positions</h1>
-    </PageSection> */}
-
-
-    <div name="positions" class="max-w-screen-xl mx-auto">
-        <div class="my-16 mx-8 text-center lg:text-left">
+    {/* Followed by section for open positions */}
+    <div className="max-w-screen-xl mx-auto">
+        <div name="positions" class="mt-4 mb-16 mx-8 lg:w-screen">
             <h1 class="text-5xl">
                 Open Positions
             </h1>
@@ -309,20 +297,6 @@ const OurTeam = () => {
             <img className="h-[25px] items-start" src={email}/>
         </div>
     </div>
-    
-    {/* <div className="mx-8 my-auto">
-        <div className='text-center lg:text-left'>
-            <h1 name="positions" className="text-5xl">Open Positions</h1>
-            <br></br>
-            <h1>Group Leader Biocomputing</h1>
-            <h1>Scientists Deep Learning, Machine Learning</h1>
-            <h1>Research Technician with cell culture experience</h1>
-            <br></br>
-            <br></br>
-            <h1>Please send us an email at info@sequantrix.bio for more information regarding open positions</h1>
-        </div>
-    </div> */}
-    
     </>
   )
 }

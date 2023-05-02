@@ -10,7 +10,7 @@ const HeroSection = () => {
     return (
         <div 
         name="homepage" 
-        className="flex flex-col items-center w-full h-full text-center border border-solid border-black mt-[96px]">
+        className="flex flex-col items-center w-full h-full text-center mt-[96px]">
         {/* Setting the top margin of this div to a fixed value of 96 pixels because of the navbar */}
             <div className="p-16">
                 <img className={'h-full md:lg-1/2 lg:h-1/2 w-full md:w-1/2 lg:w-1/2 mx-auto'} src={sequantrix} alt="Sequantrix Main Logo" />
