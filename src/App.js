@@ -13,7 +13,7 @@ import Approach from "./components/Approach";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div>
+    <div className="flex flex-col">
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <HeroSection />
       <hr />

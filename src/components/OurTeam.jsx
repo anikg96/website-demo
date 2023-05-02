@@ -116,7 +116,8 @@ const OurTeam = () => {
                         <h5>Target Validation</h5>
                     </div>
                 </div>
-                <div 
+                {/* Removing Konrad */}
+                {/* <div 
                 onClick={() => handleOnOpen(
                     konrad, 
                     "Konrad Hoeft", 
@@ -129,7 +130,7 @@ const OurTeam = () => {
                         <h5>Konrad, Advisor</h5>
                         <h5>Target Science</h5>
                     </div>
-                </div>
+                </div> */}
                 <div 
                 onClick={() => handleOnOpen(
                     maurice, 
@@ -147,10 +148,10 @@ const OurTeam = () => {
                 <div 
                 onClick={() => handleOnOpen(
                     "", 
-                    "Rafael Kramann", 
-                    "Prof.", 
-                    "Prof. Raphael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology at the Uniklinik RWTH Aachen, Germany, (ii) Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology at RWTH Aachen University, (iii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL and (iv) Honorary Professor and PI at the British Heart Foundation Center of Excellence at the University of Edinburgh, UK. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prices. His publication record is outstanding: h = 51, > 140 publications, citation percentile 92.",
-                    "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
+                    "NN", 
+                    "", 
+                    "",
+                    "")}
                 className={`relative w-full md:w-1/6 lg:w-1/6 border border-solid border-black text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                     <img src={""} alt=""/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
@@ -186,7 +187,8 @@ const OurTeam = () => {
                         <h5>Target Validation</h5>
                     </div>
                 </div>
-                <div 
+                {/* Removing Sikander */}
+                {/* <div 
                 onClick={() => handleOnOpen(
                 sikander,
                 "Sikander Hayat",
@@ -199,7 +201,7 @@ const OurTeam = () => {
                         <h5>Sikander, Translational</h5>
                         <h5>Data Science</h5>
                     </div>
-                </div>
+                </div> */}
                 <div 
                 onClick={() => handleOnOpen(
                     susanne, 
