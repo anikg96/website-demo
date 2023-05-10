@@ -29,7 +29,7 @@ return (
                     </span>
                 </p>
                 <p>&nbsp;</p>
-                <p>Dr. Michael Rheinnecker</p>
+                <p>Sequantrix GmbH</p>
                 <p>Pauwelsstrasse 17</p>
                 <p>52074 Aachen</p>
                 <p>&nbsp;</p>
@@ -40,15 +40,28 @@ return (
                 <p>Telefon: <img src={phone} className="w-1/4"/></p>
                 <br></br>
                 <p>E-Mail: <img src={email} className="w-1/6"/></p>
+                <br></br>
+                <p>Internet: www.sequantrix.bio</p>
                 <p>&nbsp;</p>
-                <p><strong>Umsatzsteuer-ID:</strong> <img src={umsatzsteuer} className="w-1/4"/></p>
-                <p><span>&nbsp;</span></p><p>
+                <p>Sitz: Aachen</p>
+                <p>Registergericht: Amtsgericht Aachen</p>
+                <p>Registernummer: HRB 26456</p>
+                <p><strong>Ust-Ident-Nummer:</strong> <img src={umsatzsteuer} className="w-1/4"/></p>
+                <p>Geschäftsführer: Dr. Michael Rheinnecker</p>
+                <p>
+                Betriebshaftpflichtversicherung: AXA Versicherung AG
+                </p>
+                <p>EU-Streitschlichtung: 
+Die Sequantrix GmbH wird nicht an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilnehmen und ist hierzu auch nicht verpflichtet.
+</p>
+                {/* <p><span>&nbsp;</span></p><p>
                     <span>
                         <u>Umsatzsteuer-Identifikationsnummer gem. § 27 a Umsatzsteuergesetz:</u>
                     </span>
                 </p>
                 <p>&nbsp;</p>
                 <p><img src={bank} className="w-1/4"/></p>
+                 */}
                 <p>
                     <strong>
                         <span>&nbsp;</span>

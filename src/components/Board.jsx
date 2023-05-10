@@ -99,7 +99,7 @@ const Board = () => {
                 rafael, 
                 "Rafael Kramann", 
                 "Prof.", 
-                "Prof. Rafael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is (i) Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology and Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology, both at the University Hospital RWTH Aachen, Germany, and (ii) Director of the Laboratory of Translational Kidney and Cardiovascular Research at the Erasmus Medical Center Rotterdam, NL. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prizes.",
+                "Prof. Rafael Kramann is a Founder of Sequantrix. He is a nephrologist dedicated to develop novel targeted therapies for fibrotic diseases. Rafael is Professor of Medicine and Associate Senior Attending Renal Physician at the Department of Nephrology and Clinical Immunology and Chairman and Founding Director of the Institute of Experimental Medicine and Systems Biology, both at the University Hospital RWTH Aachen, Germany. He is an international opinion leader and inventor in the field of fibrosis and awardee of 2 ERC grants and multiple awards and prizes.",
                 "https://www.linkedin.com/in/rafael-kramann-md-phd-00988456")}
             className={`relative w-full md:w-1/4 lg:w-1/4 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
                 <img src={rafael} alt="Rafael Kramann" />

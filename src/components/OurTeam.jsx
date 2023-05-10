@@ -18,6 +18,8 @@ import hyojin from '../assets/team/hyojin-min.jpg';
 import maurice from '../assets/team/maurice-min.jpg';
 import susanne from '../assets/team/susanne-min.jpg';
 import ursula from '../assets/team/ursula-min.jpg';
+import suchanda from '../assets/team/suchanda.jpg';
+
 
 import Modal from './Modal';
 import { useState } from 'react';
@@ -147,15 +149,15 @@ const OurTeam = () => {
                 </div>
                 <div 
                 onClick={() => handleOnOpen(
-                    "", 
-                    "NN", 
-                    "", 
-                    "",
-                    "")}
-                className={`relative w-full md:w-1/6 lg:w-1/6 border border-solid border-black text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
-                    <img src={""} alt=""/>
+                    suchanda, 
+                    "Suchanda Bhattacharyya", 
+                    "M. Sc.", 
+                    "Text to be updated",
+                    "www.sequantrix.bio")}
+                className={`relative w-full md:w-1/6 lg:w-1/6 text-center ${clicked ? '': 'hover:transform hover:scale-125 hover:rounded transition hover:z-50 hover:cursor-pointer duration-50 ease-in-out'}`}>
+                    <img src={suchanda} alt="Suchanda Bhattacharyya"/>
                     <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 bg-opacity-70 text-white">
-                        <h5 className="text-md">NN, Knowledge</h5>
+                        <h5 className="text-md">Suchanda, Knowledge</h5>
                         <h5>Representation</h5>
                     </div>
                 </div>
@@ -283,7 +285,7 @@ const OurTeam = () => {
             <Modal onClose={handleOnClose} visible={showModal} imgUrl={urlString} name={personName} designation={personDesignation} description={personDescription} linkedinUrl={personLinkedInUrl}/>
     </PageSection>
     {/* Followed by section for open positions */}
-    <div className="max-w-screen-xl mx-auto">
+    {/* <div className="max-w-screen-xl mx-auto">
         <div name="positions" class="mt-4 mb-16 mx-8 lg:w-screen">
             <h1 class="text-5xl">
                 Open Positions
@@ -296,7 +298,7 @@ const OurTeam = () => {
             <h1>For more information regarding open positions, please send an email to:</h1>
             <img className="h-[25px] items-start" src={email}/>
         </div>
-    </div>
+    </div> */}
     </>
   )
 }
